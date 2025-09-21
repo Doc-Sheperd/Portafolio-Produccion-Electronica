@@ -1,0 +1,603 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Práctica 1 | Ibero Puebla</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <style>
+    .custom-btn {
+        color: #ffffff;               /* Color del texto */
+        background-color: #ff6600;    /* Color de fondo */
+        border-color: #ff6600;        /* Color del borde */
+    }
+
+    .custom-btn:hover {
+        background-color: #e65c00;    /* Color al pasar el mouse */
+        border-color: #e65c00;
+    }
+
+    .custom-btn.active {
+        background-color: #cc5500;    /* Color del botón activo */
+        border-color: #cc5500;
+    }
+    .subtab-content {
+    background: #f6f5eb;
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid #F9F5E8;
+  }
+    .navbar .nav-link {
+  color: #ffffff !important;
+    }
+  .nav-link {
+    color: #ff6600 !important;   /* Color normal menu del Ki*/
+  }
+  .nav-link.active {
+    color: #ffffff !important;   /* Color cuando está activa */
+    background-color: #ff6600 !important; /* Fondo para resaltar */
+  }
+</style>
+</head>
+
+<body class="d-flex flex-column h-100" style="background-color:#F9F5E8">
+    <main class="flex-shrink-0">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <div class="container px-5">
+                <a class="navbar-brand">Menu</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0" >
+                        <li class="nav-item"><a class="nav-link" href="../">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#resumen">Acerca de mi</a></li>
+                        <li class="nav-item"><a class="nav-link" href="../index.html#practicas">Prácticas</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Seccion TITULO de Portafolio-->
+        <header class="bg-primary py-2 mt-6">
+            <div class="container px-5">
+                <div class="row gx-5 align-items-center justify-content-center">
+                    <div class="col-lg-8 col-xl-7 col-xxl-6">
+                        <div class="my-5 text-center text-xl-start">
+                            <h1 class="display-6 fw-bolder text-white mb-2">Portafolio de Actividades</h1>
+                            <h1 class="display-8 fw-bolder text-white mb-2">Producción Electrónica</h1>
+                            <p id="resumen" class="display-8 fw-normal text-white-50 mb-4">Departamento de Ciencias e Ingenierías | Universidad Iberoamericana Puebla, México.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="py-3 text-center" id="scroll-target">
+                <div class="container px-5 my-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <!-- Post title-->
+                        <h1 class="fw-bolder mb-1">Placas con Monofab</h1>
+
+            <section class="">
+                <div class="container px-5 my-5">
+                    <div class="row gx-5 justify-content-center">
+                        <div class="col-lg-4">
+                                   <img class="img-fluid rounded-circle" width="150px" src="assets/AR.jpg" alt="...">
+                            <div class="ms-2">
+                                <div class="fw-bold">Derek Rodríguez Cancino</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                        </div> 
+                        <div class="col-lg-4"><br><br><p>En esta página se retoma lo aprendido en clase sobre el manejo de la maquina MONOFAB para manofactura de placas.</p>
+                            <div class="text-muted fst-italic mt-2 mb-2">Septiembre 18, 2025</div>
+                            <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
+                            <a class="badge bg-primary text-decoration-none link-light">Kicad</a>
+                            <a class="badge bg-primary text-decoration-none link-light">Monofab</a>
+                            <a class="badge bg-primary text-decoration-none link-light">Electrónica</a>
+                        </div>
+                        <div class="col-lg-4">
+                            <img class="img-fluid rounded-circle" width="150px" src="assets/Kamil.jpg" alt="...">
+                            <div class="ms-2">
+                                <div class="fw-bold">Kamil Gallardo Toledo</div>
+                                <div class="text-muted">Mecatrónica</div>
+                            </div>
+                        </div>                    
+                    </div>
+                </div>
+            </section>
+         </header>
+        </div>
+    </section>
+
+        <!-- Seccion de CONTENIDO de la Práctica-->
+        <section>
+            <section class="py-3 text-center" id="scroll-target">
+                <div class="container px-5 my-2" data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">
+                    <!-- Post header-->
+                    <header class="mb-4">
+                        <figure class="mb-4"  data-aos="fade-left" data-aos-duration="500" data-aos-delay="50"><img class="img-fluid rounded" width="400px" src="img/Placa.jpg" alt="..." />
+                </figure>
+         </header>
+        </div>
+    </section>
+            <div class="container px-5" >
+
+                
+    <!-- INICIO DE MENU Kicad-->
+     <section class="">
+        <div class="container px-5 my-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">
+            <div class="row gx-5 align-items-start">
+            
+            <!-- Imagen cuadrado -->
+            <div class="col-lg-3 text-center">
+                <img src="img/Ki.png" alt="Logo Kicad" class="img-fluid border border-0" width="150px">
+            </div>
+
+            <!-- Tabs -->
+            <div class="col-lg-9">
+                <!-- Botones de pestañas -->
+                <ul class="nav nav-tabs" id="kicadTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="datos-tab" data-bs-toggle="tab" data-bs-target="#datos" type="button" role="tab">Kicad</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="metas-tab" data-bs-toggle="tab" data-bs-target="#metas" type="button" role="tab">Editor esquemático</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="enlaces-tab" data-bs-toggle="tab" data-bs-target="#enlaces" type="button" role="tab">Diseño de  PCB</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="Reglas-tab" data-bs-toggle="tab" data-bs-target="#Reglas" type="button" role="tab">Reglas de diseño:</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="mods-tab" data-bs-toggle="tab" data-bs-target="#mods" type="button" role="tab">Mods CE</button>
+                </li>
+                </ul>
+
+                <!-- Contenido de pestañas -->
+                <div class="tab-content border border-top-0 rounded-bottom p-3" id="kicadTabsContent">
+                <div class="tab-pane fade show active" id="datos" role="tabpanel">
+                    <ul>
+                    <li>Kicad es una aplicación multiplataforma y de código abierto enfocada en el diseño electrónico.</li>
+                    <li>Es ampliamente usado debido a su amigabilidad con el usuario, su sistema de detección de errores y aplicación de reglas de diseño.</li>
+                    <li>Para comenzar se debe instalar el programa. Una vez instalado, se debe iniciar y descargar las librerías del FABLAB.</li>
+                    <li>Posteriormente, crear un proyecto e ingresar al editor esquemático.</li><br>
+                    <div class="col-lg-8">
+                             <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/Kicad.png" alt="..." /></figure>  
+                    </div> 
+                    </ul>
+                </div>
+                
+                <div class="tab-pane fade" id="metas" role="tabpanel">
+                    <p> En este apartado se pueden desarrollar diagramas eléctricos que posteriormente serán graficados en el apartado de Diseño PCB, asimismo, cuenta con una gran cantidad de componentes para usar en las librerías, incluso, permite crear símbolos customizados. </p>
+                   <div class="tab-pane fade show active" id="metas-tab" role="tabpanel">
+                        <div class="row">
+                            <!-- Menú lateral izquierdo -->
+                            <div class="col-lg-3 mb-3">
+                            <div class="d-grid gap-2">
+                                <button class="btn custom-btn active" onclick="showSubTab('info1', this)">Colocar los componentes</button>
+                                <button class="btn custom-btn" onclick="showSubTab('info2', this)">Esquematizado</button>
+                            </div>
+                            </div>
+
+                            <!-- Contenido de la derecha -->
+                            <div class="col-lg-9">
+
+                            <div id="info1" class="subtab-content">
+                                <h5>Colocar los componentes </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/1.png" alt="..." /></figure>  
+                                </div> 
+                                <p>En la sección derecha está un símbolo de triángulo con un + - en su interior, al oprimirlo se desplegará un menú donde podremos seleccionar cada uno de los componentes de nuestra libería. </p>
+                                <h5>Colocar tomas de corriente </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/2.png" alt="..." /></figure>  
+                                </div> 
+                                <p>A los símbolos de GND y 3.3V se les coloca una etiqueta para poderlos emplear sin necesidad de conectarlos directamente a los diagramas. </p>
+                            </div>
+
+                            <div id="info2" class="subtab-content d-none">
+                                <h5>Esquematizado </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/3.png" alt="..." /></figure>  
+                                </div> 
+                                <p>En el caso particular de esta imagen, se diseñaron cuatro esquemas. Dos son Pull up y dos son Pull down. Se insertaron cuatro salidas de señal para cada led a usar. Para los Pull down se conectó el led directamente a GND y se colocó un pulsador en 3.3V, para que el circuito esté en un estado lógico de 0 hasta que el pulsador se oprima. Para los Pull up se colocó el pulsador en GND , para que el circuito esté en un estado lógico de 1 hasta que se oprima el botón. Se usaron resistencias para controlar el flujo de corriente.  </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="tab-pane fade" id="enlaces" role="tabpanel">
+                    <p> En esta sección se estructura la organización de los componentes esquematizados en el apartado anterior. Se define el ancho de las pistas, las perforaciones y el borde, así como su profundidad. Se usan las herramientas del lado derecho para poder generar los trazados del circuito.  </p>
+                   <div class="tab-pane fade show active" id="enlaces-tab" role="tabpanel">
+                        <div class="row">
+                            <!-- Menú lateral izquierdo -->
+                            <div class="col-lg-3 mb-3">
+                            <div class="d-grid gap-2">
+                                <button class="btn custom-btn active" onclick="showSubTab('Insertar componentes', this)">Insertar componentes</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Trazar', this)">Trazar</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Vista 3D', this)">Vista 3D</button>
+                            </div>
+                            </div>
+
+                            <!-- Contenido de la derecha -->
+                            <div class="col-lg-9">
+
+                            <div id="Insertar componentes" class="subtab-content">
+                                <h5>Insertar componentes </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/4.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Al abrir el apartado y oprimir el ícono marcado se insertaran los componentes.  </p>
+                                </div>
+
+                            <div id="Trazar" class="subtab-content d-none">
+                                <h5>Trazar </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/5.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Usando los íconos de la derecha se pueden trazar las rutas, las perforaciones y los bordes. El ícono contorneado por el marco rojo es para trazar las conexiones entre los componentes. El ícono contorneado por el marco azul nos permite hacer círculos que emplearemos como perforaciones. Los íconos rodeados por el color verde son para trazar los bordes.  </p>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/6.png" alt="..." /></figure>  
+                                </div>    
+                                <p>Al dar click derecho sobre los trazos se pueden editar sus propiedades.</p>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/7.png" alt="..." /></figure>  
+                                </div>
+                            </div>
+                            <div id="Vista 3D" class="subtab-content d-none">
+                                <h5>Vista 3D </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/8.png" alt="..." /></figure>  
+                                </div> 
+                                <p>La vista 3D permite tener una noción más clara sobre el aspecto de la placa.  </p>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+
+                <div class="tab-pane fade" id="Reglas" role="tabpanel">
+                    <p> Para poder llevar a cabo el trazado de las pistas, perforaciones y bordes se deben tener en cuenta algunos principios: </p>
+                   <div class="tab-pane fade show active" id="Reglas-tab" role="tabpanel">
+                        <div class="row">
+                            <!-- Menú lateral izquierdo -->
+                            <div class="col-lg-3 mb-3">
+                            <div class="d-grid gap-2">
+                                <button class="btn custom-btn active" onclick="showSubTab('1', this)">Regla 1</button>
+                                <button class="btn custom-btn" onclick="showSubTab('2', this)">Regla 2</button>
+                                <button class="btn custom-btn" onclick="showSubTab('3', this)">Regla 3</button>
+                                <button class="btn custom-btn" onclick="showSubTab('4', this)">Regla 4</button>
+                                <button class="btn custom-btn" onclick="showSubTab('5', this)">Regla 5</button>
+                            </div>
+                            </div>
+
+                            <!-- Contenido de la derecha -->
+                            <div class="col-lg-9">
+
+                            <div id="1" class="subtab-content">
+                                <h5>Regla 1: </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/9.png" alt="..." /></figure>  
+                                </div> 
+                                <p>El mínimo de tamaño de una pista es de 0.4 mm.  </p>
+                                </div>
+
+                            <div id="2" class="subtab-content d-none">
+                                <h5>Regla 2: </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/10.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Cada trazado de la placa se asigna a una capa distinta. El cual se representa por un color distinto en el diseño, como se puede ver en el apartado de Diseño de PCB. Usualmente se usa F.Cu para el trazado de pistas, Edge.Cuts para los bordes y uno de los Users disponibles para las perforaciones.</p>
+                            </div>
+                            <div id="3" class="subtab-content d-none">
+                                <h5>Regla 3: </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/11.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Para exportar los documentos se debe oprimir FILE, posteriormente fabrication outputs y seleccionar Gerbers.</p>
+                            </div>
+                            <div id="4" class="subtab-content d-none">
+                                <h5>Regla 4: </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/12.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Después cambiar el formato a SVG. </p>
+                            </div>
+                            <div id="5" class="subtab-content d-none">
+                                <h5>Regla 5: </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/13.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Ya cambiado el formato, en la lista de la izquierda seleccionar las capaz de los cortes, oprimir en fit page to board y después en plot para trazarlo y guardarlo en la carpeta que se seleccione.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                </div>
+
+                <div class="tab-pane fade" id="mods" role="tabpanel">
+                    <p> Para convertir los archivos en trayectorias para la herramienta Monofab smr-20 se usó la página de Mods CE (link en html). </p>
+                   <div class="tab-pane fade show active" id="mods-tab" role="tabpanel">
+                        <div class="row">
+                            <!-- Menú lateral izquierdo -->
+                            <div class="col-lg-3 mb-3">
+                            <div class="d-grid gap-2">
+                                <button class="btn custom-btn active" onclick="showSubTab('ing', this)">Ingresar</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Perforaciones', this)">Perforaciones</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Bordes', this)">Bordes</button>
+                            </div>
+                            </div>
+
+                            <!-- Contenido de la derecha -->
+                            <div class="col-lg-9">
+
+                            <div id="ing" class="subtab-content">
+                                <h5>Ingresar </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/14.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Al ingresar se debe dar click derecho y se desplegará un pequeño menú azul. En el menú hay que seleccionar la opción de programs. Después oprimir open program.</p>
+                                
+                             <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/15.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Una vez oprimido open program se selecciona, en la sección de SMR-20 mill, mil 2D PCB. </p>
+
+                             <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/16.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Y se desplegará la siguiente página:</p>
+                            <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/17.png" alt="..." /></figure>  
+                                </div> 
+                            </div>
+
+                            <div id="Perforaciones" class="subtab-content d-none">
+                                <h5>Perforaciones </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/18.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Para comenzar se debe cargar el archivo SVG y se carga desde el dispositivo.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/19.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Posteriormente seleccionar el tipo de trazado y las características de la herramienta que se va a usar. 
+                                    <br>En el caso de las perforaciones se selecciona mill outline. </p>
+                                
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/19.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Se inserta la velocidad, para las perforaciones la velocidad puede ser grande, puesto que solo va a hacer los hoyos. También se establecen las posiciones en x, y, z en 0.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/20.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Luego se calculará el trazado y se generará una vista previa.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="250px" src="img/21.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Por último, se activa el apartado para guardar los archivos y al volver a calcular se guardará un archivo que la monofab ya puede emplear. </p>
+                            </div>
+
+                            <div id="Pistas" class="subtab-content d-none">
+                                <h5>Pistas </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/22.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Primero se inserta el archivo SVG. </p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/23.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Después se invierte la vista, porque lo de blanco es lo que la cortadora no va a eliminar y nosotros queremos que las pistas permanezcan. </p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/24.png" alt="..." /></figure>  
+                                </div> 
+                                <p>En el caso de las pistas se debe seleccionar mill traces porque se usará una punta diferente para el trazado de las pistas. </p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/25.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Posteriormente se calcula el proceso y se configura el offset, en este caso se usaron solo 2 offsets.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/26.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Se establece la velocidad y la posición en los ejes.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/27.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Y por último se guarda el archivo. </p>
+
+                            </div>
+
+                            <div id="Bordes" class="subtab-content d-none">
+                                <h5>Bordes </h5>
+                                <p>El proceso es similar a los anteriores, con unos pequeños cambios. </p>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/28.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Primero insertar el archivo SVG. </p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/29.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Después seleccionar mill outline.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/30.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Cambiar la velocidad a 1 para no dañar la punta y establecer la posición de los ejes a 0.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/31.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Calcular y descargar el archivo.</p>
+
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                </div>
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+     </section>
+     <!-- FIN DE MENU Kicad-->
+            
+     <!-- INICIO MENU Monofab-->
+
+     <section class="">
+        <div class="container px-5 my-5" data-aos="fade-left" data-aos-duration="500" data-aos-delay="50">
+            <div class="row gx-5 align-items-start">
+
+            <!-- Tabs -->
+            <div class="col-lg-9">
+                <!-- Botones de pestañas -->
+                <ul class="nav nav-tabs" id="MonoTabs" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="monofab-tab" data-bs-toggle="tab" data-bs-target="#monofab" type="button" role="tab">MonoFab</button>
+                </li>
+                </ul>
+
+                <!-- Contenido de pestañas -->
+                <div class="tab-content border border-top-0 rounded-bottom p-3" id="MonoTabsContent">                
+                <div class="tab-pane fade show active" id="monofab" role="tabpanel">
+                    <p> Se usará la Roland monoFab SMR-20, la cuál es una máquina fresadora, es una máquina muy segura puesto que lo únicos riesgos que se puede correr son que se rompa la punta o inhalar el polvo metálico, a causa de eso, tiene una cobertura.<br>
+                        Para el trazado de las rutas se empleará una placa fenólica, la cual es un panel compuesto de múltiples capaz de papel y una capa delgada de cobre. </p>
+                   <div class="tab-pane fade show active" id="monofab-tab" role="tabpanel">
+                        <div class="row">
+                            <!-- Menú lateral izquierdo -->
+                            <div class="col-lg-3 mb-3">
+                            <div class="d-grid gap-2">
+                                <button class="btn custom-btn active" onclick="showSubTab('Descarga', this)">Descargar programa</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Activar', this)">Activar la máquina</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Asegurar', this)">Asegurar el material</button>
+                                <button class="btn custom-btn" onclick="showSubTab('Tra', this)">Trazar</button>
+                            </div>
+                            </div>
+
+                            <!-- Contenido de la derecha -->
+                            <div class="col-lg-9">
+
+                            <div id="Descarga" class="subtab-content">
+                                <h5>Descargar programa</h5>
+                                <p>El programa es necesario para poder operar la fresadora. Es un progra muy intuitivo y se activa cuando se conecta a la máquina.</p>
+                                </div>
+
+                            <div id="Activar" class="subtab-content d-none">
+                                <h5>Activar la máquina </h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/32.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Primero se conecta la máquina y se oprime el botón de encendido.</p>
+
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/33.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Seguidamente se abre el programa. El programa tiene controladores en el centro para el eje x y el eje y, así como también para el eje z. Inferior a los controladores se puede determinar la fluidez con respecto a los clicks de los movimientos que se ejecuten con los controles, debajo de eso se reposiciona en XY y Z en las posiciones ya guardas. <br>En la parte inferior izquierda se puede iniciar o detener el giro de la broca manualmente. <br>En la sección derecha, en la parte superior, se establece la posición en XY y Z, en la parte inferior son los controladores para cortar, pausar o cancelar. </p>
+                            </div>
+
+                            <div id="Asegurar" class="subtab-content d-none">
+                                <h5>Asegurar el material</h5>
+                                <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/35.png" alt="..." /></figure>  
+                                </div> 
+                                <p>Colocar cama de sacrificio, adherir correctamente la placa a la cama y establecer bien las coordenadas sobre la placa.</p>
+                                </div>
+                            
+                            <div id="Tra" class="subtab-content d-none">
+                                <h5>Asegurar el material</h5>
+                                
+                                <p>Para hacer los cortes se debe ingresar los archivos que descargamos de la página de MODS CE, el orden de los trazos debe ser: perforación, trazo de pistas y corte de bordes. <br>
+                                Según lo establecido en MODS, se debe cambiar las puntas usando una llave tipo Allen y no cambiar la posición en los ejes. <br>
+                            El resultado es el siguiente. </p>
+                            <div class="col-lg-8">
+                                     <figure class="mb-4"><img class="img-fluid rounded" width="500px" src="img/34.png" alt="..." /></figure>  
+                                </div> 
+                                </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </div>
+     </div> 
+     <div class="col-lg-3 text-center">
+                <img src="img/mono.png" alt="Logo Mono" class="img-fluid border border-0" width="150px">
+            </div>
+            </div>
+            <!-- Imagen cuadrado -->
+           
+            </div>
+        </div>
+     </section>
+     <!--FIN MENU Monofab-->
+     
+</section>
+
+
+    </main>
+
+    <!-- Footer-->
+    <footer class="bg-dark py-4 mt-auto">
+        <div class="container px-5">
+            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
+                <div class="col-auto">
+                    <div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div>
+                </div>
+                <div class="col-auto">
+                    <a class="link-light small" href="#!">Privacy</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="#!">Terms</a>
+                    <span class="text-white mx-1">&middot;</span>
+                    <a class="link-light small" href="#!">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script> AOS.init(); </script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script>
+  function showSubTab(tabId, btn) {
+    // Ocultar todos los contenidos
+    document.querySelectorAll('.subtab-content').forEach(div => div.classList.add('d-none'));
+    // Mostrar el contenido seleccionado
+    document.getElementById(tabId).classList.remove('d-none');
+
+    // Cambiar el estilo activo del botón
+    btn.parentElement.querySelectorAll('button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+  }
+</script>
+</body>
+
+</html>
